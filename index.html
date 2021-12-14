@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!--Style-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="container">
+      <section id="calculator">
+        <div id="div-title">
+          <h1>Calculadora</h1>
+        </div>
+        <div id="log-container">
+          <ul id="log-list"></ul>
+        </div>
+        <div id="input-container">
+          <textarea
+            name="input-area"
+            id="input-area"
+            autocomplete="off"
+            readonly
+          ></textarea>
+        </div>
+        <div id="error-container"></div>
+        <div id="keyboard" class="grid-container">
+          <button class="grid-item key">7</button>
+          <button class="grid-item key">8</button>
+          <button class="grid-item key">9</button>
+          <button class="grid-item key">&divide;</button>
+          <button class="grid-item" id="btn-backspace">&larr;</button>
+          <button class="grid-item" id="btn-clear">C</button>
+          <button class="grid-item key">4</button>
+          <button class="grid-item key">5</button>
+          <button class="grid-item key">6</button>
+          <button class="grid-item key">&times;</button>
+          <button class="grid-item key">(</button>
+          <button class="grid-item key">)</button>
+          <button class="grid-item key">1</button>
+          <button class="grid-item key">2</button>
+          <button class="grid-item key">3</button>
+          <button class="grid-item key">&minus;</button>
+          <button class="grid-item" id="btn-power">x²</button>
+          <button class="grid-item" id="btn-sqrt">&#8730;</button>
+          <button class="grid-item key">0</button>
+          <button class="grid-item key">,</button>
+          <button class="grid-item key">%</button>
+          <button class="grid-item key">&plus;</button>
+          <button class="grid-item" id="btn-equals">&equals;</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; Desenvolvido por Gabriel Beserra<br />
+        DEVinHouse, Dezembro 2021
+      </p>
+    </footer>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
