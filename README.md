@@ -1,6 +1,6 @@
 # Calculator
 
-This basic JavaScript Calculator was developed by me as part of my studies in DEVinHouse.
+This basic JavaScript Calculator was developed by me as part of my studies in [DEVinHouse](https://github.com/gbeserra95/DEVinHouse).
 In this project, I tried to better organize my code by using modules.
 
 As I improve my skills, I will be commiting new features and coding best practices.
